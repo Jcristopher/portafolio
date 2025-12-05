@@ -1,0 +1,23 @@
+.customHeader {
+    position: sticky;
+    top: 0;
+    border-bottom: solid 0.2px;
+    backdrop-filter: blur(8px);
+    background: var(--background);
+}
+
+.customUl {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2rem 2rem;backdrop-filter: blur(8px);
+  justify-content: flex-end;
+}
+
+.customUl li {
+  cursor: pointer;
+}
+
+.customUl li:hover {
+  color: var(--primary);
+}
