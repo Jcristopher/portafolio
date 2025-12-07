@@ -1,7 +1,9 @@
 import Image from "next/image";
+import './globals.css';
+
 export  default function Contenido2() {
     return (
-        <main>
+        <main className="aboutme">
             <section>
                 <h2>Sobre mi</h2>
                 <p>Soy Jordy, desarrollador especializado en la construcción de aplicaciones web y móviles utilizando tecnologías
@@ -13,17 +15,18 @@ export  default function Contenido2() {
                     Cuento con nivel básico de inglés y continúo formándome para trabajar en equipos internacionales y
                     participar en proyectos globales.</p>
             </section>
+
             <section className="programas">
-                <div className="imagenes1">
-                    <Image src="/1.jpg" width={500}
+                <div className="imagenespro">
+                    <Image src="/React.webp" width={500}
                         height={500} alt="imagen" />
-                    <Image src="/2.jpg" width={500}
+                    <Image src="/Flutter2.png" width={500}
                         height={500} alt="imagen" />
                 </div>
-                <div className="imagenes2">
-                    <Image src="/3.jpg" width={500}
+                <div className="imagenespro">
+                    <Image src="/ReactNative2.jpg" width={500}
                         height={500} alt="imagen" />
-                    <Image src="/4.jpg" width={500}
+                    <Image src="/angular.webp" width={500}
                         height={500} alt="imagen" />
                 </div>
             </section>

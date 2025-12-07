@@ -1,7 +1,8 @@
 import Image from "next/image";
+import './globals.css';
 export default function Contenido() {
     return (
-        <main>
+        <main className="inicial">
             <section>
                 <div className="saludo">
                     <h2>Hola, soy</h2>
@@ -29,12 +30,12 @@ export default function Contenido() {
                 </div>
             </section>
             
-            <section>
-                <Image
-                    src="/profile.png"
+            <section className="fotoperfil">
+                <Image className="mifoto"
+                    src="/cv.jpg"
                     width={500}
                     height={500}
-                    alt="Picture of the author"
+                    alt="imagen de perfil"
                 />
             </section>
         </main>
