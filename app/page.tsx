@@ -1,18 +1,17 @@
-import CustomHeader from "./custom-header";
-import Contenido from "./contenido";
-import Contenido2 from "./contenido2";
-import MediaCard from "./contenido3";
+import CustomHeader from "./components/header/header";
+import Projects from "./projects";
+import Aboutme from "./aboutme";
+import PersonalDetail from "./personal-detail";
 
 export default function Home() {
   return (
     <div>
       <CustomHeader />
-      <Contenido />
-      <Contenido2 />
-      <MediaCard />
-      <footer> 
-
-      </footer>
+      <div className="px-60">
+        <PersonalDetail />
+        <Aboutme />
+        <Projects />
+      </div>
     </div>
   );
 }
