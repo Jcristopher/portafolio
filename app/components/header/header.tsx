@@ -15,7 +15,8 @@ export default function CustomHeader() {
     }
     const [activeSection, setActiveSection] = useState<string>('homes');
     return (
-        <header className="flex gap-10 justify-end py-7 px-60 sticky top-0 z-50 bg-background/70 backdrop-blur-md border-b-[0.3px] border-[#00cca8]">
+        <header className="flex gap-10 justify-end py-7 px-60 sticky 
+        top-0 z-50 bg-background/70 backdrop-blur-md border-b-[0.3px] border-[#00cca8]">
             <ButtonHeader activeSection={activeSection} scrollToWithHeader={scrollToWithHeader} text="Presentación" id="homes" />
             <ButtonHeader activeSection={activeSection} scrollToWithHeader={scrollToWithHeader} text="Sobre mi" id="aboutme" />
             <ButtonHeader activeSection={activeSection} scrollToWithHeader={scrollToWithHeader} text="Proyectos" id="projects" />
