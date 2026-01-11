@@ -5,81 +5,25 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import CardProject from '@/app/components/card-project/cards';
 
 export default function Projects() {
     return (
-        <main className="cards" id="projects">
-            <div>
-                <Card sx={{ maxWidth: 345 }}>
-                    <CardActionArea>
-                        <CardMedia
-                            sx={{ height: 140 }}
-                            image="/static/images/cards/contemplative-reptile.jpg"
-                            title="Contemplative Reptile"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                Lizard
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of reptiles...
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button size="small">Share</Button>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>
-            </div>
+        <section className="mt-10">
+            <main className='flex gap-5 px-10 flex-row justify-center items-center mb-6' id='projects'>
+                    <div className="h-0.5 bg-(--border) w-[40%]"></div>
+                    <h1 className="text-4xl w-[20%] font-bold text-center text-foreground">Proyectos</h1>
+                    <div className="h-0.5 bg-(--border) w-[40%]"></div>
+            </main>
+            <main className="cards" id="projects">
+                
+                <CardProject tittle="Proyecto Angular" image='random' imagetittle='random' description='asdjasdkjahsdkja' />
 
-            <div>
-                <Card sx={{ maxWidth: 345 }}>
-                    <CardActionArea>
-                        <CardMedia
-                            sx={{ height: 140 }}
-                            image="/static/images/cards/contemplative-reptile.jpg"
-                            title="Contemplative Reptile"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                Lizard
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of reptiles...
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button size="small">Share</Button>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>
-            </div>
+                <CardProject tittle="Proyecto React" image='random' imagetittle='random' description='asdjasdkjahsdkja' />
 
-            <div>
-                <Card sx={{ maxWidth: 345 }}>
-                    <CardActionArea>
-                        <CardMedia
-                            sx={{ height: 140 }}
-                            image="/static/images/cards/contemplative-reptile.jpg"
-                            title="Contemplative Reptile"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                Lizard
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of reptiles...
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button size="small">Share</Button>
-                        <Button size="small">Learn More</Button>
-                    </CardActions>
-                </Card>
-            </div>
-        </main>
+                <CardProject tittle="Proyecto ReactNative" image='random' imagetittle='random' description='asdjasdkjahsdkja' />
+                
+            </main>
+        </section>
     );
 }
