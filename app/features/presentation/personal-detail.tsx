@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "../shared/button/button";
+import Button from "../../components/shared/button/button";
 import { VscMail, VscFile } from "react-icons/vsc";
 import { DiGithub } from "react-icons/di";
 import { AiFillLinkedin } from "react-icons/ai";

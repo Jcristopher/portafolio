@@ -1,7 +1,7 @@
 import CustomHeader from "./components/header/header";
-import Projects from "./components/projects/projects";
-import Aboutme from "./components/aboutme/aboutme";
-import PersonalDetail from "./components/presentation/personal-detail";
+import Projects from "./features/projects/projects";
+import Aboutme from "./features/aboutme/aboutme";
+import PersonalDetail from "./features/presentation/personal-detail";
 
 export default function Home() {
   return (
