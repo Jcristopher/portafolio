@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={mavenPro.className} data-scroll-behavior="smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth w-[100%] h-[100%]`}
       >
         <AppRouterCacheProvider>
           {children}

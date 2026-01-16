@@ -1,0 +1,57 @@
+{
+    "jordy": {
+        "photoURL": "/cv.jpg",
+        "fullName": "Jordy Cristopher Paredes Tavara",
+        "job": "Desarrollador Web",
+        "description": "Soy desarrollador web y mobile enfocado en crear productos digitales sólidos y funcionales. Trabajo con tecnologías como Angular, React, React Native y Flutter para transformar ideas en aplicaciones completas, rápidas y accesibles. Mi objetivo es ofrecer interfaces intuitivas y un rendimiento óptimo en cada proyecto.",
+        "aboutme": [
+            [
+                {
+                    "text": "Soy Jordy, desarrollador especializado en la construcción de aplicaciones web y móviles utilizando tecnologías modernas como ",
+                    "hightlight": false
+                },
+                {
+                    "text": "Angular, React, React Native y Flutter.",
+                    "hightlight": true
+                },
+                {
+                    "text": "Me enfoco en crear interfaces optimizadas, accesibles y con alto rendimiento, aplicando principios de arquitectura modular, componentización, POO y buenas prácticas de desarrollo. Me especializo en desarrollo frontend.",
+                    "hightlight": false
+                }
+            ],
+            [
+                {
+                    "text": "Manejo herramientas como ",
+                    "hightlight": false
+                },
+                {
+                    "text": "Bootstrap, TailwindCSS, HTML y CSS ",
+                    "hightlight": true
+                },
+                {
+                    "text": "para estructurar soluciones escalables y mantener código limpio y mantenible. Me interesa constantemente aprender y mejorar procesos, optimizar la experiencia del usuario y ampliar mi dominio técnico.",
+                    "hightlight": false
+                }
+            ]
+        ],
+        "link_linkedin": "https://www.linkedin.com/in/jordy-cristopher-paredes-tavara/",
+        "link_github": "https://github.com/jordy-cristopher",
+        "email": "jparedestavara@gmail.com"
+    },
+    "rogger": {
+        "fullName": "Rogger Aldair Paredes Tavara",
+        "job": "Ingeniero Informático",
+        "photoURL": "/rogger.png",
+        "description": "Desarrollador proyectos de software en Angular y React, con experiencia en aplicaciones web escalables, arquitectura modular y buenas prácticas de desarrollo.",
+        "aboutme": [
+            [
+                {
+                    "text": "Soy Ingeniero en Informática graduado de la Universidad de Buenos Aires, con más de 4 años de experiencia desarrollando aplicaciones web bancarias y corporativas. Trabajo con microfrontends, arquitectura modular y optimización de performance. Apasionado por el aprendizaje continuo y las soluciones escalables.",
+                    "hightlight": false
+                }
+            ]
+        ],
+        "link_linkedin": "https://www.linkedin.com/in/rogger-paredes-8b75b6150/",
+        "email": "rparedestavara@gmail.com"
+    }
+}
