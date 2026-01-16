@@ -1,6 +1,6 @@
 {
     "jordy": {
-        "photoURL": "/cv.jpg",
+        "photoURL": "/jordy/cv.jpg",
         "fullName": "Jordy Cristopher Paredes Tavara",
         "job": "Desarrollador Web",
         "description": "Soy desarrollador web y mobile enfocado en crear productos digitales sólidos y funcionales. Trabajo con tecnologías como Angular, React, React Native y Flutter para transformar ideas en aplicaciones completas, rápidas y accesibles. Mi objetivo es ofrecer interfaces intuitivas y un rendimiento óptimo en cada proyecto.",
@@ -41,7 +41,7 @@
     "rogger": {
         "fullName": "Rogger Aldair Paredes Tavara",
         "job": "Ingeniero Informático",
-        "photoURL": "/rogger.png",
+        "photoURL": "/rogger/rogger.png",
         "description": "Desarrollador proyectos de software en Angular y React, con experiencia en aplicaciones web escalables, arquitectura modular y buenas prácticas de desarrollo.",
         "aboutme": [
             [
@@ -52,6 +52,15 @@
             ]
         ],
         "link_linkedin": "https://www.linkedin.com/in/rogger-paredes-8b75b6150/",
-        "email": "rparedestavara@gmail.com"
+        "email": "rparedestavara@gmail.com",
+        "technologies": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
     }
 }
