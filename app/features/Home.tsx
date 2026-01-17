@@ -3,12 +3,14 @@ import Projects from "./projects/projects";
 import Aboutme from "./aboutme/aboutme";
 import PersonalDetail, { PersonalDetailProps } from "./presentation/personal-detail";
 import Footer from "../components/footer/footer";
+import Technologies from "./technologies/Technologies";
 export interface AboutMe {
   text: string;
   hightlight: boolean;
 }
 export interface HomeProps extends PersonalDetailProps {
   aboutme: AboutMe[][];
+  technologies: string[];
 }
 export default function Home({
   fullName,
@@ -18,7 +20,8 @@ export default function Home({
   link_linkedin,
   link_github,
   email,
-  photoURL
+  photoURL,
+  technologies
 }: HomeProps) {
   return (
     <div>
@@ -26,6 +29,7 @@ export default function Home({
       <div className="px-[15%]">
         <PersonalDetail fullName={fullName} job={job} description={description} link_linkedin={link_linkedin} link_github={link_github} email={email} photoURL={photoURL} />
         <Aboutme aboutme={aboutme} />
+        {technologies.length > 0 && <Technologies technologiesId={technologies} />}
         <Projects />
       </div>
       <Footer />
