@@ -29,8 +29,8 @@ export default function CardProject ({tittle, image, imagetittle, description}:{
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <ButtonProgram icon={FaGithub} description="Código" />
-                    <ButtonProgram2 icon={RiShareBoxLine} description="Demo" />
+                    <ButtonProgram icon={FaGithub} description="Código" url='' />
+                    <ButtonProgram2 icon={RiShareBoxLine} description="Demo" url='' />
                 </CardActions>
             </Card>
         </div>
