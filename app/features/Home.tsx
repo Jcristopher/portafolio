@@ -29,7 +29,7 @@ export default function Home({
       <div className="px-[15%]">
         <PersonalDetail fullName={fullName} job={job} description={description} link_linkedin={link_linkedin} link_github={link_github} email={email} photoURL={photoURL} />
         <Aboutme aboutme={aboutme} />
-        <Technologies technologiesId={technologies} />
+        {technologies.length > 0 && <Technologies technologiesId={technologies} />}
         <Projects />
       </div>
       <Footer />
