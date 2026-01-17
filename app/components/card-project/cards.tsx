@@ -5,7 +5,10 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import { ButtonProgram, ButtonProgram2} from './button-cards';
+import { FaGithub } from "react-icons/fa";
+import { RiShareBoxLine } from "react-icons/ri";
+
 export default function CardProject ({tittle, image, imagetittle, description}:{tittle: string, image: string, imagetittle: string, description: string}) {
     return (
         <div>
@@ -26,8 +29,8 @@ export default function CardProject ({tittle, image, imagetittle, description}:{
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <ButtonProgram icon={FaGithub} description="Código" />
+                    <ButtonProgram2 icon={RiShareBoxLine} description="Demo" />
                 </CardActions>
             </Card>
         </div>
