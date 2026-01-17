@@ -11,7 +11,7 @@ export default async function Page({
     if (!user) return (<NotFoundPage />)
     return (
         <>
-            <Home fullName={user.fullName} job={user.job} description={user.description} aboutme={user.aboutme} link_linkedin={user.link_linkedin} link_github={user.link_github} email={user.email} photoURL={user.photoURL} />
+            <Home fullName={user.fullName} job={user.job} description={user.description} aboutme={user.aboutme} link_linkedin={user.link_linkedin} link_github={user.link_github} email={user.email} photoURL={user.photoURL} technologies={user.technologies} />
         </>
     );
 }

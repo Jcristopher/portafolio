@@ -36,7 +36,8 @@
         ],
         "link_linkedin": "https://www.linkedin.com/in/jordy-cristopher-paredes-tavara/",
         "link_github": "https://github.com/jordy-cristopher",
-        "email": "jparedestavara@gmail.com"
+        "email": "jparedestavara@gmail.com",
+        "technologies": []
     },
     "rogger": {
         "fullName": "Rogger Aldair Paredes Tavara",
@@ -54,13 +55,13 @@
         "link_linkedin": "https://www.linkedin.com/in/rogger-paredes-8b75b6150/",
         "email": "rparedestavara@gmail.com",
         "technologies": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
         ]
     }
 }
